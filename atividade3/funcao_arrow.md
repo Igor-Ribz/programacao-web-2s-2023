@@ -5,11 +5,11 @@
 ## Sintaxe Concisa:
 ### A sintaxe das Arrow Functions é mais curta, eliminando a necessidade de usar a palavra-chave function e chaves {} quando a função possui apenas uma expressão.
 
-## this Lexical:
-### Arrow Functions não criam seu próprio contexto de this. Em vez disso, elas herdam o valor de this do escopo pai onde foram definidas. Isso é particularmente útil quando se lida com objetos e funções callback.
+## 'this' Lexical:
+### Arrow Functions não criam seu próprio contexto de 'this'. Em vez disso, elas herdam o valor de this do escopo pai onde foram definidas. Isso é particularmente útil quando se lida com objetos e funções callback.
 
 ## Exemplo em código: 
-![exemplo codigo]()
+![exemplo codigo](https://github.com/Igor-Ribz/programacao-web-2s-2023/blob/main/atividade3/Exemplo1.jfif)
 
 
 
