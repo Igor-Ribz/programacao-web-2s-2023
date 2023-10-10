@@ -1,0 +1,34 @@
+function isPrime(number) {
+    if (number <= 1) {
+      return false; // 0 e 1 não são primos
+    }
+  
+    for (let i = 2; i <= Math.sqrt(number); i++) {
+      if (number % i === 0) {
+        return false; // Não é primo
+      }
+    }
+  
+    return true; // É primo
+  }
+  
+  function printPrimeResult(number) {
+    if (isPrime(number)) {
+      console.log("1 - O número é primo.");
+    } else {
+      console.log("0 - O número não é primo.");
+    }
+  }
+  
+  // Solicita um número ao usuário 
+  const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+  
+  readline.question("Digite um número: ", (inputNumber) => {
+    const number = parseInt(inputNumber);
+    printPrimeResult(number);
+    readline.close();
+  });
+  
