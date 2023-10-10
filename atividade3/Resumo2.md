@@ -11,4 +11,4 @@
 ### As Promises oferecem métodos para manipular esses estados, como then() para lidar com a resolução bem-sucedida e catch() para lidar com erros.
 
 ## Exemplo em código: 
-![Exemplo codigo]()
+![Exemplo codigo](https://github.com/Igor-Ribz/programacao-web-2s-2023/blob/main/atividade3/exemplo_promise.jfif)
