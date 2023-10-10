@@ -9,7 +9,7 @@
 ### Arrow Functions não criam seu próprio contexto de 'this'. Em vez disso, elas herdam o valor de this do escopo pai onde foram definidas. Isso é particularmente útil quando se lida com objetos e funções callback.
 
 ## Exemplo em código: 
-![exemplo codigo](https://github.com/Igor-Ribz/programacao-web-2s-2023/blob/main/atividade3/Exemplo1.jfif)
+![exemplo codigo](https://github.com/Igor-Ribz/programacao-web-2s-2023/blob/main/atividade3/img/Exemplo1.jfif)
 
 
 
