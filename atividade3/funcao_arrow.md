@@ -1,10 +1,12 @@
-   // As "Arrow Functions" (ou "funções de seta") são uma característica introduzida no ECMAScript 6 (ES6) 
-  // que fornece uma sintaxe mais curta e concisa para definir funções em JavaScript. Elas são uma alternativa às funções 
- // tradicionais e oferecem as seguintes funcionalidades:
+# Arrow function
 
-//Sintaxe Concisa: Arrow functions permitem escrever funções de forma mais compacta, 
-//economizando a necessidade de escrever a palavra-chave function e usar chaves {} para um único statement.
-    
+### As "Arrow Functions", são uma característica introduzida no ECMAScript 6 (ES6) que fornece uma sintaxe mais curta e concisa para definir funções em JavaScript. Elas são uma alternativa às funções  tradicionais e oferecem as seguintes funcionalidades:
+
+## Sintaxe Concisa:
+### Arrow functions permitem escrever funções de forma mais compacta, economizando a necessidade de escrever a palavra-chave function e usar chaves {} para um único statement. 
+
+## Exemplo em código: 
+
 // Função tradicional:
 function soma(a, b) {
   return a + b;
@@ -51,7 +53,6 @@ function exemplo() {
 }
 
 exemplo(1, 2, 3); // Irá imprimir os argumentos passados para 'exemplo'
-
 
 
 
